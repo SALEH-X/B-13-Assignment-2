@@ -112,6 +112,7 @@ body{
     background-repeat: no-repeat;
     padding: 7vw 0;
     
+    
 }
 
 .banner-img-container{
@@ -138,7 +139,6 @@ body{
 
 .banner-content-cotainer{
     margin: 0 auto;
-    width: 34.3%;
     text-align: center;
 
 }
@@ -153,13 +153,16 @@ body{
 
 
 .banner-text{
+    font-size: 1vw;
     color: white;
 }
 
 .btn-container{
     margin-top: 2vw;
+    margin-bottom: 30px;
     justify-content: center;
     gap: 10px;
+
 }
 
 
@@ -192,10 +195,28 @@ body{
         align-items: center;
     }
 
-    /* .nav-container .hamburger-menu img{
-        height: 20px;
-        width: 50px;
-    } */
+    .banner-text{
+    font-size: 2vw;}
+
+    .banner-content-cotainer .banner-btn-left{
+    
+        padding: 5px;
+        
+        height: 23px;
+        font-size: 13px;
+
+        
+    }
+
+    .banner-content-cotainer .banner-btn-right{
+        padding: 5px;
+        
+        height: 23px;
+        font-size: 10px;
+
+    }
+
+    
 }
 
 
@@ -216,5 +237,10 @@ body{
         margin: 0 auto;
         align-items: center;
     }
+
+
+    .banner-text{
+    font-size: 1.5vw;}
+    
     
 }
