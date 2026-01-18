@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-image: linear-gradient(to top left, red, blue); */
+}
+
+body{
+    font-family: "Inter", sans-serif;
+}
+
+
+/* common styles */
+
+
+.flex,
+.nav-container{
+    display: flex;
+}
+
+.section{
+    width: 100%;
+}
+
+
+
+
+
+
+.primary-btn{
+    color: white;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: none;
+    background-image: linear-gradient(to right top, rgb(255, 247, 0), rgb(106, 0, 255) );
+}
+
+.banner-btn-right{
+    
+    color: #00FF88;
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    font-weight: 600;
+    padding: 10px 20px;
+    border-radius: 100px;
+    border: 2px solid #00FF88;
+    background-color: transparent;
+    
+}
+
+
+
+
+/* main styles */
+
+
+
+/* nav-section-styles */
+
+
+.nav-container{
+    justify-content: space-between;
+    background-color: #1A0B2E;
+    padding: 16px 12.5%;
+}
+
+.nav-container .nav-logo{
+    color: white;
+    font-weight: 900;
+
+}
+
+.nav-container .nav-logo .wave{
+    background-image: linear-gradient(50deg, rgb(255, 0, 200), rgb(0, 26, 255) ) ;
+    color: transparent;
+    background-clip: text;
+    
+}
+
+.nav-bars{
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+}
+
+
+.nav-bars ul{
+    list-style: none;
+
+}
+
+.nav-bars ul a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-container .hamburger-menu{
+    display: none;
+}
+
+
+
+/* banner-section-styles */
+
+#banner-section{
+    background-image: url(assets/hero-bg.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 7vw 0;
+    
+}
+
+.banner-img-container{
+    padding-top: 3%;
+    background-image: url(assets/hero-circle.png);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 62%;
+    margin: 0 auto;
+    width: 34.3%;
+    height: 22vw;
+    
+    text-align: center;
+    box-sizing: border-box;
+    /* margin-bottom: 30px; */
+    
+
+}
+
+.banner-img{
+    width: 25%;
+    
+}
+
+.banner-content-cotainer{
+    margin: 0 auto;
+    width: 34.3%;
+    text-align: center;
+
+}
+
+
+.banner-title{
+    /* margin-top: 30px; */
+    font-size: 4vw;
+    color: white;
+    font-weight: 800;
+}
+
+
+.banner-text{
+    color: white;
+}
+
+.btn-container{
+    margin-top: 2vw;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and ( max-width:576px ) {
+
+    .nav-button,
+    .nav-bars{
+        display: none;
+    }
+    .nav-container .hamburger-menu{
+        display: block;
+    }
+    
+    .nav-container{
+        padding: 16px 8%;
+        align-items: center;
+    }
+
+    /* .nav-container .hamburger-menu img{
+        height: 20px;
+        width: 50px;
+    } */
+}
+
+
+
+@media screen and (min-width:576px) and (max-width:992px) {
+
+    .nav-button{
+        display: none;
+
+    }
+
+    .nav-container .hamburger-menu{
+        display: block;
+    }
+
+    .nav-container{
+        padding: 16px;
+        margin: 0 auto;
+        align-items: center;
+    }
+    
+}
