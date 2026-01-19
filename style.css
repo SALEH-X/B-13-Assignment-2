@@ -593,6 +593,18 @@ iframe {
 
 @media screen and (max-width:576px) {
 
+
+
+    @keyframes bounce {
+    from{
+        top: 0;
+    }
+    to{
+        top: 10px;
+    }
+
+}
+
     .nav-button,
     .nav-bars {
         display: none;
@@ -614,9 +626,8 @@ iframe {
     .banner-content-cotainer .banner-btn-left {
 
         padding: 5px;
-
         height: 23px;
-        font-size: 13px;
+        font-size: 9px;
 
 
     }
