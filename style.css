@@ -110,7 +110,7 @@ body{
     background-image: url(assets/hero-bg.png);
     background-size: 100%;
     background-repeat: no-repeat;
-    padding: 7vw 0 3vw;
+    padding: 7vw 0 2vw;
     
     
 }
@@ -189,6 +189,38 @@ body{
 .about-text{
     font-size: 1vw;
     margin-bottom: 2vw;
+}
+
+.about-ratings-container{
+    display: grid;
+    width: 75%;
+    margin: 0 auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2vw;
+
+}
+
+.rating-card{
+    text-align: center;
+
+}
+
+.rating-card h1{
+    color: #00FF88;
+    font-weight: 900;
+
+}
+
+.rating-card h1 i{
+    color: #00FF88;
+    font-weight: 900;
+    font-size: 23px;
+
+}
+
+.rating-card p{
+    color: white;
+    text-transform: capitalize;
 }
 
 
