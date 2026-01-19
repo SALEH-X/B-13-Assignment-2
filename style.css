@@ -442,7 +442,7 @@ iframe {
     /* position: fixed; */
 }
 
-.footer-logo{
+.footer-logo {
     font-size: 2.5vw;
     margin-bottom: 1vw;
 }
@@ -468,7 +468,7 @@ iframe {
     margin-bottom: 16px;
 }
 
-.web-social-link ul a img{
+.web-social-link ul a img {
     width: 1vw;
 }
 
@@ -587,7 +587,36 @@ iframe {
 
     .footer-container {
         width: 75%;
+        text-align: center;
     }
+
+    .footer-logo {
+        font-size: 5vw;
+    }
+
+    .web-social-link{
+        display: grid;
+        grid-template-columns: repeat(2 , 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 0;
+    }
+
+    .web-social-link ul a {
+        font-size: 3vw;
+        
+    }
+
+    .web-social-link ul a img {
+        width: 3vw;
+    }
+
+    .copy-right {
+        font-size: 3vw;
+    }
+
+
+
+
 
 
 }
@@ -658,6 +687,26 @@ iframe {
     .host-card {
         flex-direction: column;
 
+    }
+
+
+    .footer-logo {
+        font-size: 4vw;
+    }
+
+    
+
+    .web-social-link ul a {
+        font-size: 2vw;
+        
+    }
+
+    .web-social-link ul a img {
+        width: 2vw;
+    }
+
+    .copy-right {
+        font-size: 2vw;
     }
 
 }
