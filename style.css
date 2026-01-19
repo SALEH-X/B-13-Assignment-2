@@ -54,7 +54,7 @@ body {
 
 
 
-
+/* button styles */
 
 
 .primary-btn {
@@ -114,6 +114,7 @@ body {
 
 
 /* main styles */
+
 
 
 
@@ -717,6 +718,13 @@ iframe {
 
     .copy-right {
         font-size: 3vw;
+    }
+
+    #footer-section{
+        background-attachment: cover;
+        background-size: 100% 100%;
+
+
     }
 
 
