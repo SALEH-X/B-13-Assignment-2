@@ -1,11 +1,11 @@
 * {
     margin: 0;
     padding: 0;
-    /* background-image: linear-gradient(to top left, red, blue); */
 }
 
 body {
     font-family: "Inter", sans-serif;
+    color: white;
 }
 
 
@@ -53,6 +53,22 @@ body {
 
 }
 
+.new{
+    font-size: 1.3vw;
+    font-weight: 600;
+    background-color: #00FF88;
+    color: black;
+    border: 1px solid;
+    width: 4vw;
+    height: 1.4vw;
+    border-radius: 100px;
+    padding: 1vw 1.5vw;
+    position: absolute;
+    left: 22vw;
+
+
+}
+
 
 
 
@@ -70,7 +86,7 @@ body {
 }
 
 .nav-container .logo {
-    color: white;
+    /* color: white; */
     font-weight: 900;
 
 }
@@ -105,7 +121,13 @@ body {
 
 
 
+
+
+
 /* banner-section-styles */
+
+
+
 
 #banner-section {
     background-image: url(assets/hero-bg.png);
@@ -125,10 +147,9 @@ body {
     margin: 0 auto;
     width: 34.3%;
     height: 22vw;
-
     text-align: center;
     box-sizing: border-box;
-    /* margin-bottom: 30px; */
+    position: relative;
 
 
 }
@@ -146,25 +167,30 @@ body {
 
 
 .banner-title {
-    /* margin-top: 30px; */
     font-size: 4vw;
-    color: white;
+    /* color: white; */
     font-weight: 800;
 }
 
 
 .banner-text {
     font-size: 1vw;
-    color: white;
+    /* color: white; */
 }
 
 .btn-container {
     margin-top: 2vw;
-    /* margin-bottom: 30px; */
     justify-content: center;
     gap: 10px;
 
 }
+
+
+
+/* about-section-styles */
+
+
+
 
 
 #about-section {
@@ -175,7 +201,7 @@ body {
 }
 
 .about-content {
-    color: white;
+    /* color: white; */
     text-align: center;
     width: 75%;
     margin: 0 auto;
@@ -191,7 +217,6 @@ body {
     font-size: 16px;
     width: 50%;
     margin: 2vw auto 0;
-    /* margin-bottom: 2vw; */
 }
 
 .horizontal-line {
@@ -230,9 +255,15 @@ body {
 
 .rating-card p {
     font-size: 15px;
-    color: white;
+    /* color: white; */
     text-transform: capitalize;
 }
+
+
+
+
+/* choose-section-styles */
+
 
 
 
@@ -246,13 +277,12 @@ body {
 }
 
 .choose-section-title {
-    color: white;
+    /* color: white; */
     font-size: 29px;
 }
 
 .choose-card-container {
     width: 75%;
-    /* height: 49vw; */
     margin: 100px auto;
     display: grid;
     gap: 16px;
@@ -278,7 +308,7 @@ body {
     background-color: rgba(53, 17, 101, 0.4);
     padding: 40px;
     text-align: start;
-    color: white;
+    /* color: white; */
     border-radius: 40px;
 }
 
@@ -304,10 +334,16 @@ body {
 
 
 
+/* episode-section-styles */
+
+
+
+
+
 #episodes-section {
     width: 100%;
     background-color: #1A0B2E;
-    color: white;
+    /* color: white; */
     text-align: center;
     padding: 50px 0;
 
@@ -366,6 +402,9 @@ iframe {
 
 }
 
+/* host-details-styles */
+
+
 .host-card {
     background-color: #250D44;
     border-radius: 30px;
@@ -422,15 +461,19 @@ iframe {
 
 
 
+/* footer-section-styles */
+
+
+
+
 #footer-section {
     background-image: url(assets/footer-bg.png);
     background-size: cover;
     background-position: center;
-    /* background-position: center; */
     background-repeat: no-repeat;
     padding: 10% 0 7%;
-    color: white;
-    /* height: 500px; */
+    /* color: white; */
+
 
 
 }
@@ -439,7 +482,7 @@ iframe {
     width: 75%;
     margin: 1vw auto 0;
     justify-items: center;
-    /* position: fixed; */
+
 }
 
 .footer-logo {
@@ -535,7 +578,6 @@ iframe {
 
     .about-ratings-container {
         display: grid;
-        /* width: 75%; */
         margin: 0 auto;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -549,7 +591,6 @@ iframe {
     .about-text {
         font-size: 10px;
         width: 75%;
-        /* margin: 2vw 0 0; */
     }
 
     .rating-card h1 {
@@ -647,7 +688,6 @@ iframe {
 
     .about-ratings-container {
         display: grid;
-        /* width: 75%; */
         margin: 0 auto;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -657,11 +697,6 @@ iframe {
 
     .about-content {
         width: 100%;
-    }
-
-
-    .about-text {
-        font-size: 16px;
     }
 
 
