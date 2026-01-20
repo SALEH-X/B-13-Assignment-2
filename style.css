@@ -540,7 +540,10 @@ iframe {
 .footer-container {
     width: 75%;
     margin: 1vw auto 0;
-    justify-items: center;
+    display: flex;
+    flex-direction: column;
+    /* justify-items: center; */
+    align-items: center;
 
 }
 
@@ -702,7 +705,9 @@ iframe {
 
     .host-details {
         text-align: center;
-        justify-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .footer-container {
@@ -719,6 +724,7 @@ iframe {
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
         gap: 0;
+        margin-right: -10vw;
     }
 
     .web-social-link ul a {
