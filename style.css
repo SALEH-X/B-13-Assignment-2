@@ -438,7 +438,8 @@ body {
     flex-direction: column;
     gap: 1.5vw;
     align-items: start;
-    padding: 2vw 1vw 3vw
+    padding: 2vw 1vw 3vw;
+    
 }
 
 iframe {
@@ -452,6 +453,7 @@ iframe {
     background-color: #250D44;
     border-radius: 30px;
     transition: .5s;
+    cursor: pointer;
 }
 
 .episode-card h3 {
