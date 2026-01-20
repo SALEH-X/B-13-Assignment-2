@@ -112,7 +112,7 @@ body {
 }
 
 
-.episode-card:hover{
+.episode-card:hover {
     box-shadow: 3px 2px 24px -5px rgb(137, 114, 114);
 }
 
@@ -434,13 +434,14 @@ iframe {
     width: 100%;
 }
 
-.episode-card{
+.episode-card {
     background-color: #250D44;
     border-radius: 30px;
+    transition: .5s;
 }
 
 .episode-card h3 {
-    font-size: 24px;
+    font-size: 22px;
     font-weight: bold;
     text-align: start;
 
@@ -686,6 +687,14 @@ iframe {
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .episode-card h3 {
+        font-size: 20px;
+    }
+
+    .card-content {
+        padding: 22px;
+    }
+
     .host-card {
         flex-direction: column;
 
@@ -793,6 +802,10 @@ iframe {
 
     .episode-container {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-content {
+        padding: 22px;
     }
 
 
