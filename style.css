@@ -13,6 +13,19 @@ body {
 
 /* common styles */
 
+
+@keyframes right-arrow {
+    from {
+        gap: 0%;
+    }
+
+    to {
+        gap: 8%;
+    }
+
+}
+
+
 @keyframes bounce {
     from {
         top: 0;
@@ -73,6 +86,7 @@ body {
     position: relative;
     cursor: pointer;
     transition: 1s;
+    animation: right-arrow .5s infinite alternate;
 
 
 }
@@ -542,7 +556,6 @@ iframe {
     margin: 1vw auto 0;
     display: flex;
     flex-direction: column;
-    /* justify-items: center; */
     align-items: center;
 
 }
@@ -597,7 +610,7 @@ iframe {
 
 
 
-
+/* responsive for mobile or small device */
 
 
 @media screen and (max-width:576px) {
@@ -615,6 +628,10 @@ iframe {
 
     }
 
+
+    /* nav-section */
+
+
     .nav-button,
     .nav-bars {
         display: none;
@@ -628,6 +645,10 @@ iframe {
         padding: 16px 8%;
         align-items: center;
     }
+
+
+    /* banner-section */
+
 
     .banner-text {
         font-size: 2vw;
@@ -650,6 +671,12 @@ iframe {
 
     }
 
+
+
+    /* about-section */
+
+
+
     .about-ratings-container {
         display: grid;
         margin: 0 auto;
@@ -671,6 +698,12 @@ iframe {
         font-size: 24px;
     }
 
+
+
+    /* choose-section  */
+
+
+
     .choose-card-container {
         width: 95%;
         grid-template-columns: repeat(1, 1fr);
@@ -686,6 +719,12 @@ iframe {
     }
 
 
+
+    /* episode-section */
+
+
+
+
     .episode-container {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -698,6 +737,11 @@ iframe {
         padding: 22px;
     }
 
+
+
+    /* host-card-section */
+
+
     .host-card {
         flex-direction: column;
 
@@ -709,6 +753,18 @@ iframe {
         flex-direction: column;
         align-items: center;
     }
+
+
+
+    /* footer-section */
+
+
+    #footer-section {
+        background-attachment: cover;
+        background-size: 100% 100%;
+
+    }
+
 
     .footer-container {
         width: 75%;
@@ -740,12 +796,7 @@ iframe {
         font-size: 3vw;
     }
 
-    #footer-section {
-        background-attachment: cover;
-        background-size: 100% 100%;
-
-
-    }
+    
 
 
 
@@ -756,7 +807,17 @@ iframe {
 
 
 
+
+
+/* responsive for tablet device */
+
+
+
 @media screen and (min-width:576px) and (max-width:992px) {
+
+
+    /* nav-section */
+
 
     .nav-button {
         display: none;
@@ -774,9 +835,18 @@ iframe {
     }
 
 
+    /* banner-section */
+
+
     .banner-text {
         font-size: 1.5vw;
     }
+
+
+
+    /* about-section */
+
+
 
     .about-ratings-container {
         display: grid;
@@ -790,6 +860,11 @@ iframe {
     .about-content {
         width: 100%;
     }
+
+
+
+    /* choose-section  */
+
 
 
     .choose-card-container {
@@ -806,6 +881,10 @@ iframe {
         grid-column: span 1;
     }
 
+
+    /* episode-section */
+
+
     .episode-container {
         grid-template-columns: repeat(1, 1fr);
     }
@@ -815,10 +894,18 @@ iframe {
     }
 
 
+    /* host-card-section */
+
+
     .host-card {
         flex-direction: column;
 
     }
+
+
+
+
+    /* footer-section */
 
 
     .footer-logo {
